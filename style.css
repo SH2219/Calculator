@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(116, 109, 130);
+}
+
+.card {
+  background-color: rgb(20, 22, 32);
+  display: flex !important;
+  width: 35rem !important;
+  margin: 0 auto !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 100px !important;
+  margin-bottom: 100px!important;
+}
+
+.row {
+  margin-top: 5rem !important;
+}
+
+.row button {
+  margin: 15px -20px !important;
+  border: transparent;
+  width: 4rem;
+  height: 3rem;
+  border-radius: 15px;
+  background-color: rgb(22, 22, 33);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+}
+
+.row button:hover {
+  background-color: rgb(29, 29, 47);
+}
+
+.btn {
+  display: flex;
+}
+
+.equal {
+  width: 13rem !important;
+  height: 3rem !important;
+  margin-left: 12px !important;
+  border-radius: 20px;
+  border: transparent;
+  background-color: rgb(22, 22, 33);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+}
+
+.equal:hover {
+  background-color: rgb(29, 29, 47) !important;
+}
+
+.equal2 {
+  width: 5rem !important;
+  height: 3rem !important;
+  margin-right: -280px;
+  border-radius: 15px;
+  border: transparent;
+  background-color: rgb(22, 22, 33);
+  -webkit-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  -moz-box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+  box-shadow: 0px 1px 6px -1px rgba(154, 159, 184, 1);
+}
+.equal2:hover {
+  background-color: rgb(29, 29, 47) !important;
+}
+
+.text {
+  font-size: 25px;
+  color: white !important;
+}
+
+.input input {
+  margin-top: 5rem;
+  width: 30rem;
+  height: 3rem;
+  background-color: rgb(20, 22, 32);
+  border: none !important;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: right;
+}
+.input input:focus{
+    outline: none!important;
+}
